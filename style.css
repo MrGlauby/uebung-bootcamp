@@ -1,6 +1,112 @@
+
+/* thomas branch start */
 *{
     margin: 0;
     padding: 0;
+
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #000000;
+    padding: 20px;
+    height: 200px;
+    width: 100%;
+    font-size: 0.8em;
+
+}
+
+
+header nav ul li a{   
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+}
+/* -------------------------------------------------- Deutsch/Englisch etc. */
+.box1{
+    display:flex ;
+    position: absolute;
+    justify-content: left;   
+
+}
+
+.box1 li{
+    padding: 30px;
+    justify-content: space-between;
+}
+/* ----------------------------------------------- */
+.box2{
+    display:flex ;
+    margin-left:300px ;
+}
+
+.box2 li{
+    padding: 30px;
+}
+/* ----------------------------------------------- */
+.box3{
+    display:flex ;
+    justify-content: right;
+
+}
+.box3 li{
+    
+    padding: 30px;
+    margin-top: -80px;
+}
+
+/* --------------------------------- */
+
+.mainnav {
+    display:flex ;
+    
+    font-size: 1em;
+    justify-content: center;
+}
+.mainnav li{
+    padding: 40px;
+
+}
+
+header nav ul li a:hover{   
+    color: rgba(255, 255, 255, 0.464);
+}
+
+
+/* ---------------------- */
+
+.video{
+    width: 100vw;
+    height: 100%;
+    background-image: cover;
+}
+
+
+
+
+
+.border{
+    border: solid red 2px;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+}
+
+.imgmer1{
+    width: 100%;
+    height: 100%;
+    
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: aliceblue;
+}
+/* thomas branch css ende */
+
+
 }
 .gallery {
     margin-top: 128px;
@@ -54,3 +160,7 @@
     grid-row-start: span 1;
     grid-row-end: span 1;
   }
+
+
+
+
