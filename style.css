@@ -1,106 +1,305 @@
-
 /* thomas branch start */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    background-color: #000000;
-    padding: 20px;
-    height: 200px;
-    width: 100%;
-    font-size: 0.8em;
-
+header {
+  background-color: #000000;
+  padding: 20px;
+  height: 200px;
+  width: 100%;
+  font-size: 0.8em;
 }
 
-
-header nav ul li a{   
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    list-style: none;
+header nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style: none;
 }
 /* -------------------------------------------------- Deutsch/Englisch etc. */
-.box1{
-    display:flex ;
-    position: absolute;
-    justify-content: left;   
-
+.box1 {
+  display: flex;
+  position: absolute;
+  justify-content: left;
 }
 
-.box1 li{
-    padding: 30px;
-    justify-content: space-between;
+.box1 li {
+  padding: 30px;
+  justify-content: space-between;
 }
 /* ----------------------------------------------- */
-.box2{
-    display:flex ;
-    margin-left:300px ;
+.box2 {
+  display: flex;
+  margin-left: 300px;
 }
 
-.box2 li{
-    padding: 30px;
+.box2 li {
+  padding: 30px;
 }
 /* ----------------------------------------------- */
-.box3{
-    display:flex ;
-    justify-content: right;
-
+.box3 {
+  display: flex;
+  justify-content: right;
 }
-.box3 li{
-    
-    padding: 30px;
-    margin-top: -80px;
+.box3 li {
+  padding: 30px;
+  margin-top: -80px;
 }
 
 /* --------------------------------- */
 
 .mainnav {
-    display:flex ;
-    
-    font-size: 1em;
-    justify-content: center;
-}
-.mainnav li{
-    padding: 40px;
+  display: flex;
 
+  font-size: 1em;
+  justify-content: center;
 }
-
-header nav ul li a:hover{   
-    color: rgba(255, 255, 255, 0.464);
+.mainnav li {
+  padding: 40px;
 }
 
+header nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.464);
+}
 
 /* ---------------------- */
 
-.video{
-    width: 100vw;
-    height: 100%;
-    background-image: cover;
+.video {
+  width: 100vw;
+  height: 100%;
+  background-image: cover;
 }
 
-
-
-
-
-.border{
-    border: solid red 2px;
-    height: 300px;
-    width: 300px;
-    position: absolute;
+.border {
+  border: solid red 2px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
 }
 
-.imgmer1{
-    width: 100%;
-    height: 100%;
-    
+.imgmer1 {
+  width: 100%;
+  height: 100%;
 }
 
-p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
-    color: aliceblue;
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  color: aliceblue;
 }
 /* thomas branch css ende */
+
+.social {
+  display: block;
+  text-align: center;
+  margin: 8rem auto 4.285rem;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  justify-content: center;
+  font-size: 3.428rem;
+  line-height: 4.285rem;
+  font-weight: 400;
+}
+
+.nav-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  transition: opacity 0.5s;
+  margin-bottom: 8rem;
+  column-gap: 5.714rem;
+  font-size: 2rem;
+  margin-right: 3rem;
+}
+
+.info2 {
+  background-image: url("https://www.mercedes-benz.com/en/_jcr_content/root/fullscreenstage/image/MQ7-0-image-20230113162245/01-mercedes-benz-classic-c123-diner-5120x2240.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+#diner {
+  line-height: 1rem;
+}
+
+#coupe {
+  line-height: 4rem;
+}
+.diner {
+  color: white;
+  position: relative;
+  margin-left: 10rem;
+  padding-top: 4rem;
+  line-height: 1rem;
+}
+p {
+  font-size: 1.1rem;
+}
+button {
+  border-radius: 1.75rem;
+  height: 1.3rem;
+  width: 6rem;
+  padding: 1.14rem 1.71rem;
+  background-color: white;
+  color: black;
+  align-items: center;
+  border: none;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0478d7;
+  color: white;
+  transition: background-color 0.5s, color 0.25s;
+}
+.footer {
+  list-style-type: none;
+  background-color: black;
+  color: #939393;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.list-1 {
+  list-style-type: none;
+  position: relative;
+  margin-top: 15rem;
+  margin-left: 5rem;
+  height: 50%;
+}
+
+.menu1 {
+  text-decoration: none;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #939393;
+}
+
+.menu1:hover {
+  color: white;
+  cursor: pointer;
+  transition: cursor 500ms ease-in-out;
+}
+
+.list-2 {
+  list-style-type: none;
+  position: relative;
+  margin-top: 15rem;
+  margin-left: 5rem;
+}
+
+.menu2 {
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #939393;
+}
+
+.menu2:hover {
+  color: white;
+  cursor: pointer;
+  transition: cursor 500ms ease-in-out;
+}
+
+#active-word {
+  color: white;
+}
+
+.more {
+  list-style-type: none;
+  background-color: black;
+  box-sizing: border-box;
+  color: #939393;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-more {
+  font-size: 2rem;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-left: 8rem;
+  color: white;
+}
+
+.menu-more {
+  color: white;
+  list-style-type: none;
+  position: relative;
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: -8%;
+  line-height: 1rem;
+}
+
+.impressum {
+  background-color: black;
+  color: #919191;
+}
+
+.impressum-list {
+  list-style-type: value;
+  display: grid;
+  margin-left: 8rem;
+  margin-right: 10rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.section3 {
+  font-size: 1rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  word-spacing: 0.5rem;
+}
+
+.fa-solid.fa-plug {
+  margin-right: 1rem;
+}
+
+.fa-solid.fa-gas-pump {
+  margin-right: 1rem;
+}
+
+.fa-solid.fa-leaf {
+  margin-right: 1rem;
+}
+
+.lastfooter {
+  background-color: black;
+  width: 100%;
+  height: 30%;
+}
+
+.lastlist {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: 1rem;
+  line-height: 2;
+  justify-content: space-between;
+  margin-left: 6rem;
+  margin-right: 8rem;
+}
+
+.menu3 {
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #939393;
+}
