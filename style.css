@@ -2,3 +2,55 @@
     margin: 0;
     padding: 0;
 }
+.gallery {
+    margin-top: 128px;
+    margin-right: 120px;
+    margin-left: 120px;
+    padding-bottom: 78px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 200px;
+    grid-row-gap: 99px;
+    grid-template-columns: 0.75fr 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  
+  .item-1 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  
+ .item-2 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    align-self: center;
+  }
+  
+.item-3 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    align-self: center;
+  }
+  
+.item-4 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  
+ .item-5 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
